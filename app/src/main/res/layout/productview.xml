@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        app:cardBackgroundColor="@color/white"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="10dp"
+        app:strokeWidth="1dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="3dp"
+        app:strokeColor="@color/teal_200"
+        android:layout_height="120dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="85dp"
+                android:id="@+id/image_product"
+                android:layout_height="match_parent"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:id="@+id/product_name"
+                    android:padding="7dp"
+                    android:text="ProductName"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:id="@+id/product_prize"
+                    android:padding="7dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:text="ProductName"
+                    android:layout_height="wrap_content"/>
+
+                <!--<TextView
+                    android:layout_width="match_parent"
+                    android:id="@+id/product_rate"
+                    android:padding="7dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:text="ProductName"
+                    android:layout_height="wrap_content"/>-->
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+</layout>
